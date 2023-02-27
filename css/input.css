@@ -1,0 +1,30 @@
+
+  input:invalid{
+    border: 1px solid tomato;
+  }
+  
+  input:valid{
+    border: 1px solid green;
+  }
+  
+    textarea:invalid{
+    border: 1px solid tomato;
+  }
+  
+    textarea:valid{
+    border: 1px solid green;
+  }
+  
+
+  input, textarea:focus:invalid {
+  outline: none;
+}
+
+ input[type="text"],
+ input[type="email"],
+ textarea
+ {
+  appearance: none;
+  font-family: inherit;
+  box-sizing: border-box;
+ }

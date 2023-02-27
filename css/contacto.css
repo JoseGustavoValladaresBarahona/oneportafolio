@@ -1,0 +1,61 @@
+
+  .formcontato{
+    background-color:#c5e4ec;
+  }
+
+  .formcontato__contacto{
+    display: flex;
+  }
+  
+  .formcontato__img{
+    width:250px ;
+    height:300px ;
+    padding: 40px;
+  }
+  
+  .formcontato__boton{
+    background-color: #4169E1;
+    color: white;
+    padding: 15px;
+    border: none;
+    font-size: 14px;
+  }
+  
+    /*movil*/
+@media only screen and (min-width: 425px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+ 
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+/*contacto*/
+
+  .formcontato__img{
+    visibility: hidden;
+  }
+  
+   .formcontato__text{
+     position: absolute;
+   }
+   
+  .formcontato__boton{
+    background-color: #4169E1;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 12px;
+  }
+}
+   
+ 
+    
+   
+   

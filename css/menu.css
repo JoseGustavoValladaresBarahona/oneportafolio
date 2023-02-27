@@ -1,0 +1,63 @@
+
+  .menu__list{
+     display: flex;
+     justify-content: space-between;
+  }
+  
+    /*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+ 
+/*title*/
+
+/*Skills*/
+  
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*movil*/
+ @media only screen and (min-width: 425px) {
+
+/* Menú */
+  .menu__list__item:nth-child(1){
+    visibility: hidden;
+  }
+  
+    .menu__list__item:nth-child(2){
+    visibility: hidden;
+  }
+  
+    .menu__list__item:nth-child(3){
+    visibility: hidden;
+  }
+  
+    .menu__list__item:nth-child(4){
+    visibility: hidden;
+  }
+  
+    .menu__list__item:nth-child(5){
+    visibility: hidden;
+  }
+  
+  .menu__list__item:nth-child(6){
+     order:-1;
+   }
+/*title*/
+
+/*Skills*/
+  
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+ 

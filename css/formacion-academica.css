@@ -1,0 +1,62 @@
+
+  .academic{
+    background-color: #c5e4ec;
+    border-sizing:border-box;
+    
+  }
+
+  .academic__title{
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .academic__courses{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+   .academic__link:hover{
+     cursor: pointer;
+     color: green;
+     font-weight: bold;
+  }
+   
+  
+  @media only screen and (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+   .academic__courses{
+    display: flex;
+    flex-wrap: wrap;
+  }
+/*Experiencia Profesional*/
+
+}
+
+ @media only screen and (min-width: 425px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+  .academic__courses{
+    display: flex;
+    flex-wrap: wrap;
+  }
+/*Experiencia Profesional*/
+
+}
+  

@@ -1,0 +1,57 @@
+
+
+  .skills__title{
+    text-align: center;
+  }
+  
+  .skills__line{
+    display: flex;
+    justify-content: space-between;;
+  }
+  
+  .skills__box:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+  
+  /*Tablet*/
+@media only screen and (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+  .skills .skills__line{
+    display:flex;
+    flex-wrap: wrap;
+    height: 250px;
+  }
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+ @media only screen and (min-width: 425px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+  .skills__line{
+    display:flex;
+    flex-wrap: wrap;
+  }
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+  
+  
