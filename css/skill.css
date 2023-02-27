@@ -1,5 +1,5 @@
 
-
+  
   .skills__title{
     text-align: center;
   }
@@ -15,7 +15,7 @@
   }
   
   /*Tablet*/
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
 
 /* Menú */
 
@@ -35,7 +35,7 @@
 
 }
 
- @media only screen and (min-width: 425px) {
+ @media (min-width: 425px) {
 
 /* Menú */
 
