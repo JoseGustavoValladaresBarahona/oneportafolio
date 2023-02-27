@@ -5,26 +5,15 @@
   }
   
     /*Tablet*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
-/* Menú */
- 
-/*title*/
-
-/*Skills*/
-  
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
 
 }
 
 /*movil*/
- @media only screen and (min-width: 425px) {
+ @media (min-width: 425px) {
 
-/* Menú */
+/* Menú 
   .menu__list__item:nth-child(1){
     visibility: hidden;
   }
@@ -48,16 +37,8 @@
   .menu__list__item:nth-child(6){
      order:-1;
    }
-/*title*/
-
-/*Skills*/
-  
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
+   */
 }
+
 
  

@@ -44,19 +44,7 @@
   }
   
       /*movil*/
-@media only screen and (min-width: 425px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
- 
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
+@media (max-width: 425px) {
    .experiencie__box{
     display: flex;
     flex-direction: column;
@@ -65,4 +53,5 @@
   .experience__info{
     padding-top: 20px;
   }
-/*contacto*/
+
+}
