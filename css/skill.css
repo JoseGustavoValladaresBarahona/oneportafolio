@@ -15,7 +15,7 @@
   }
   
   /*Tablet*/
- @media (min-width: 425px) {
+ @media (max-width: 425px) {
   .skills__line{
     display:flex;
     flex-wrap: wrap;
