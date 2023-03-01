@@ -1,49 +1,30 @@
-  //nombre
-  const nombre = document.getElementById("nom");
 
-  nombre.addEventListener("input", (event) => {
-   //event.preventDefault();
-  if (nombre.validity.valueMissing) {
-    nombre.setCustomValidity("Este Campo no puede estar vacío");
-  } else {
-    nombre.setCustomValidity("");
-  }
-});
-
-//email
+const form = document.querySelector("form");
 const email = document.getElementById("mail");
+const emailError = document.querySelector("#mail + span.error");
 
-  email.addEventListener("input", (event) => {
-  if (email.validity.typeMismatch) {
-    email.setCustomValidity("Se espera una dirección de correo electrónico");
+email.addEventListener("input", (event) => {
+  if (email.validity.valid) {
+    emailError.textContent = ""; 
+    emailError.className = "error"; 
   } else {
-    email.setCustomValidity("");
+    mostrarError();
   }
 });
 
-//Asunto
-const asunto = document.getElementById("asunto");
-
-  asunto.addEventListener("input", (event) => {
-   // event.preventDefault();
-  if (asunto.validity.valueMissing) {
-    asunto.setCustomValidity("Este Campo no puede estar vacío");
-  } else {
-    asunto.setCustomValidity("");
+form.addEventListener("submit", (event) => {
+  if (!email.validity.valid) {
+    mostrarError();
+    event.preventDefault();
   }
 });
 
-//textarea
-const mensaje = document.getElementById("area-de-texto");
-
-  mensaje.addEventListener("input", (event) => {
-   // event.preventDefault();
-  if (mensaje.validity.valueMissing) {
-    mensaje.setCustomValidity("Este Campo no puede estar vacío");
-  } else {
-    mensaje.setCustomValidity("");
+function mostrarError() {
+  if (email.validity.valueMissing) {
+    emailError.textContent = "Este campo no puede estar vacío.";
+  } else if (email.validity.typeMismatch) {
+    emailError.textContent = "Debe ingresar un correo valido.";
   }
-});
 
-
-  
+  emailError.className = "error active";
+}

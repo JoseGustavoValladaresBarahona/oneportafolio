@@ -2,7 +2,6 @@
   .academic{
     background-color: #c5e4ec;
     border-sizing:border-box;
-    
   }
 
   .academic__title{
@@ -23,40 +22,16 @@
    
   
   @media (min-width: 768px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
    .academic__courses{
     display: flex;
     flex-wrap: wrap;
   }
-/*Experiencia Profesional*/
-
 }
 
  @media (min-width: 425px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
   .academic__courses{
     display: flex;
     flex-wrap: wrap;
   }
-/*Experiencia Profesional*/
-
 }
   

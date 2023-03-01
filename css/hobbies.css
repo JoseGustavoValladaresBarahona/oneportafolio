@@ -16,20 +16,8 @@
   
     /*Tablet*/
 @media (min-width: 768px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
   .hobbies__line{
     display: flex;
     flex-wrap: wrap;
   }
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
 }

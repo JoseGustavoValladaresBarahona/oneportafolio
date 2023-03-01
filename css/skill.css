@@ -15,43 +15,11 @@
   }
   
   /*Tablet*/
-@media (min-width: 768px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-  .skills .skills__line{
-    display:flex;
-    flex-wrap: wrap;
-    height: 250px;
-  }
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
-}
-
  @media (min-width: 425px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
   .skills__line{
     display:flex;
     flex-wrap: wrap;
   }
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
 }
   
   

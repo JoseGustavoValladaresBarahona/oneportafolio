@@ -4,16 +4,10 @@
      justify-content: space-between;
   }
   
-    /*Tablet*/
-@media (max-width: 768px) {
-
-
-}
-
 /*movil*/
- @media (min-width: 425px) {
+ @media (max-width: 750px) {
 
-/* Menú 
+/* */
   .menu__list__item:nth-child(1){
     visibility: hidden;
   }
@@ -37,7 +31,7 @@
   .menu__list__item:nth-child(6){
      order:-1;
    }
-   */
+   
 }
 
 

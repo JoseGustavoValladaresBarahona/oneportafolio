@@ -22,9 +22,7 @@
   }
   
     /*movil*/
-@media (min-width: 425px) {
-
-/*contacto*/
+@media (max-width: 750px) {
 
   .formcontato__img{
     visibility: hidden;
@@ -35,10 +33,7 @@
    }
    
   .formcontato__boton{
-    background-color: #4169E1;
-    color: white;
     padding: 10px;
-    border: none;
     font-size: 12px;
   }
 }

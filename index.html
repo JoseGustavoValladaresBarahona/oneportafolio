@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Referencia de la hoja de estilo de Css -->
+    <!-- Referencia de la hoja de estilo de Css-->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/input.css">
     <link rel="stylesheet" href="./css/todo.css">
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/title.css">
@@ -15,7 +16,7 @@
     <link rel="stylesheet" href="./css/formacion-academica.css">
     <link rel="stylesheet" href="./css/experiencia-profesional.css">
     <link rel="stylesheet" href="./css/contacto.css">
-     <link rel="stylesheet" href="./css/input.css">
+    <!--<link rel="stylesheet" href="./css/input.css">-->
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -199,7 +200,7 @@
         <!-- Sección de Contacto -->
         <section class="formcontato" id="contacto">
             <div  class="formcontato__contacto" id="contacto-img">
-                <div class="formcontato--esquerda">
+                <div class="formcontato--esquierda">
                     <img class="formcontato__img" src=
                     "assets\contact_image.png">
                 </div>
@@ -210,31 +211,25 @@
                <form class="formcontato__form" name="form">
                  <div class="input-container">  
                     <label class="input-label" for="name">Nombre</label>
-                    <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" id="nom" minlength="50" maxlength="50" required  data-type="nombre"><br/>
-                    
-                   <!--<span class="input-message-error" aria-live="polite">Este campo no es valido
-                   </span>-->
+                    <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" id="nom" minlength="50" maxlength="50" required  data-nombre
+                    aria-live="polite"><br/>
                  </div><br/>
                    <div class="input-container">    
                      <label class="input-label" for="email">Email</label>
-                     <input class="formcontato__input" type="email" name="email" id="mail" placeholder="E-mail" required data-type="email"><br/>
-                      
-                    <!-- <span class="input-message-error">Este campo no es valido</span> -->
+                     <input class="formcontato__input" type="email" name="email" id="mail" placeholder="E-mail" required data-email
+                     aria-live="polite"
+                     ><br/>
                    </div><br/>
                     <div class="input-container">  
                       <label class="input-label" for="asunto">Asunto</label>
-                      <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" id="asunto" minlength="50" maxlength="50" required data-type="asunto"><br/>
-                      
-                     <!--<span class="input-message-error">Este campo no es valido</span>-->
+                      <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" id="asunto" minlength="50" maxlength="50" required data-asunto aria-live="polite"><br/>
                     </div><br/>    
                     <div class="input-container"> 
                       <textarea class="formcontato__textarea" rows="5" cols="40" name="mensaje" minlength="300" maxlength="300"
                      id="area-de-texto"
-                     placeholder="Mensaje" required data-type="mensaje"></textarea>
-                        
-                     
-                     <!--<span class="input-message-error">Este campo no es valido</span>-->
-                    </div>                         
+                     placeholder="Mensaje" required 
+                     data-mensaje aria-live="polite"></textarea>
+                    </div>    
                      <button type="submit" class="formcontato__boton">Enviar mensaje</button>
                    </form>
                 </div>
@@ -250,6 +245,6 @@
         </section>
     </div>
  <!-- Script del documento JavaScript -->
-<script src="validacion.js"></script>
+<script src="./validacion.js"></script>
 </body>
 </html>
