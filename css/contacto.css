@@ -1,6 +1,6 @@
 
   .formcontato{
-    background-color:#c5e4ec;
+    background-color:#EAF2FD;
   }
 
   .formcontato__contacto{
@@ -19,6 +19,12 @@
     padding: 15px;
     border: none;
     font-size: 14px;
+  }
+  
+  .link__form{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
   }
   
     /*movil*/

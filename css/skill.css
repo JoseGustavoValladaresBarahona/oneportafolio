@@ -1,12 +1,11 @@
 
-  
   .skills__title{
     text-align: center;
   }
   
   .skills__line{
     display: flex;
-    justify-content: space-between;;
+    justify-content: space-between;
   }
   
   .skills__box:hover{
