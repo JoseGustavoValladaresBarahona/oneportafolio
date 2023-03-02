@@ -1,0 +1,54 @@
+      body {
+        font: 1em sans-serif;
+        width: 350px;
+        padding: 0;
+        margin : 0 auto;
+        background-color: #F8F8FF;
+      }
+
+      div * {
+        display: block;
+      }
+
+      input[type=text],
+      input[type=email],
+      textarea
+      {
+        appearance: none;
+        width: 100%;
+        border: 1px solid #333;
+        margin: 0;
+        font-family: inherit;
+        font-size: 90%;
+        box-sizing: border-box;
+        padding: 5px;
+      }
+
+       textarea, input:invalid{
+        border-color: red;
+      }
+
+       textarea, input:focus:invalid {
+        outline: none;
+      }
+    
+      .error {
+        width  : 100%;
+        padding: 0;
+        font-size: 80%;
+        color: white;
+        background-color: #900;
+        border-radius: 0 0 5px 5px;
+        box-sizing: border-box;
+      }
+
+      .error.active {
+        padding: 0.3em;
+      }
+      
+      .btn__enviar{
+        background-color: lightblue;
+        font-size: 20px;
+        border: none;
+      }
+   }

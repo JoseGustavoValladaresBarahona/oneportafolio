@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width=1.0">
+    <link rel="stylesheet" href="./css/style1.css">
+    <title>Portafolio|Formulario</title>
+  </head>
+<body>
+  <form novalidate>
+    <div>
+      <hr/>
+      <h1>Formulario de Contacto</h1>
+      <hr/>
+     
+      <label for="nombre">
+        <span>Nombre</span>
+        <input type="text" id="nom" name="nombre" required minlength="50" maxlength="50">
+        <span class="error" aria-live="polite"></span>
+      </label><br/>
+      
+      <label for="mail">
+        <span>Email</span>
+        <input type="email" id="mail" name="mail" required minlength="50" maxlength="50">
+        <span class="error" aria-live="polite"></span>
+      </label><br/>
+      
+      <label for="asunto">
+        <span>Asunto</span>
+        <input type="text" id="asunto" name="asunto" required minlength="50" maxlength="50">
+        <span class="error" aria-live="polite"></span>
+      </label><br/>
+      
+      <label for="mensaje">
+        <span>Mensaje</span>
+        <textarea type="text" id="mensaje" name="mensaje"  rows="5" cols="40" required minlength="300" maxlength="300"></textarea>
+        <span class="error" aria-live="polite"></span>
+      </label><br/>
+      
+    </div>
+    <button  class="btn__enviar">Enviar</button>
+    <p><strong>Gracias por tu mensaje!!!.</strong></p>
+  </form>
+  <script src="./validacion.js"></script>
+</body>
+</html>
